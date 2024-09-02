@@ -596,14 +596,5 @@
   },
   "med_qa_zh_test": {
     "file_name": "MedQA/zh/multiple-choice/test.json"
-  },
-  "med_qa_tw_train": {
-    "file_name": "MedQA/tw/multiple-choice/train.json"
-  },
-  "med_qa_tw_validation": {
-    "file_name": "MedQA/tw/multiple-choice/validation.json"
-  },
-  "med_qa_tw_test": {
-    "file_name": "MedQA/tw/multiple-choice/test.json"
   }
 }

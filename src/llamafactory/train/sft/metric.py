@@ -94,7 +94,13 @@ class ComputeSimilarity:
         if hasattr(self, "score_dict"):
             result = {k: float(np.mean(v)) for k, v in self.score_dict.items()}
 
-        self.score_dict = {"rouge-1": [], "rouge-2": [], "rouge-l": [], "bleu-4": []}
+        self.score_dict = {
+            "rouge-1":  [],
+            "rouge-2":  [],
+            "rouge-l":  [],
+            "bleu-4":   [],
+            "accuracy": [],
+        }
         return result
 
     def __post_init__(self):
@@ -125,6 +131,13 @@ class ComputeSimilarity:
 
             bleu_score = sentence_bleu([list(label)], list(pred), smoothing_function=SmoothingFunction().method3)
             self.score_dict["bleu-4"].append(round(bleu_score * 100, 4))
+
+        # Compute accuracy
+        right = 0
+        for i in range(len(decoded_preds)):
+            if decoded_preds[i] == decoded_labels[i]:
+                right += 1
+        self.score_dict["accuracy"].append(round(right / len(decoded_preds) * 100, 4))
 
         if compute_result:
             return self._dump()

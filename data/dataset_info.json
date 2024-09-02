@@ -580,39 +580,30 @@
     "folder": "python"
   },
   "med_qa_en_train": {
-    "file_name": "MedQA/en/multiple-choice/train.json",
-    "split": "train"
+    "file_name": "MedQA/en/multiple-choice/train.json"
   },
   "med_qa_en_validation": {
-    "file_name": "MedQA/en/multiple-choice/validation.json",
-    "split": "validation"
+    "file_name": "MedQA/en/multiple-choice/validation.json"
   },
   "med_qa_en_test": {
-    "file_name": "MedQA/en/multiple-choice/test.json",
-    "split": "test"
+    "file_name": "MedQA/en/multiple-choice/test.json"
   },
   "med_qa_zh_train": {
-    "file_name": "MedQA/zh/multiple-choice/train.json",
-    "split": "train"
+    "file_name": "MedQA/zh/multiple-choice/train.json"
   },
   "med_qa_zh_validation": {
-    "file_name": "MedQA/zh/multiple-choice/validation.json",
-    "split": "validation"
+    "file_name": "MedQA/zh/multiple-choice/validation.json"
   },
   "med_qa_zh_test": {
-    "file_name": "MedQA/zh/multiple-choice/test.json",
-    "split": "test"
+    "file_name": "MedQA/zh/multiple-choice/test.json"
   },
   "med_qa_tw_train": {
-    "file_name": "MedQA/tw/multiple-choice/train.json",
-    "split": "train"
+    "file_name": "MedQA/tw/multiple-choice/train.json"
   },
   "med_qa_tw_validation": {
-    "file_name": "MedQA/tw/multiple-choice/validation.json",
-    "split": "validation"
+    "file_name": "MedQA/tw/multiple-choice/validation.json"
   },
   "med_qa_tw_test": {
-    "file_name": "MedQA/tw/multiple-choice/test.json",
-    "split": "test"
+    "file_name": "MedQA/tw/multiple-choice/test.json"
   }
 }

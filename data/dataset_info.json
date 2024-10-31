@@ -596,5 +596,41 @@
   },
   "med_qa_zh_test": {
     "file_name": "MedQA/zh/multiple-choice/test.json"
+  },
+  "cmexam_train": {
+    "file_name": "CMExam/train.json"
+  },
+  "cmexam_validation": {
+    "file_name": "CMExam/validation.json"
+  },
+  "cmexam_test": {
+    "file_name": "CMExam/test.json"
+  },
+  "cmbexam_train": {
+    "file_name": "CMBExam/train.json"
+  },
+  "cmbexam_validation": {
+    "file_name": "CMBExam/validation.json"
+  },
+  "cmbexam_test": {
+    "file_name": "CMBExam/test.json"
+  },
+  "healthcaremagic_train": {
+    "file_name": "healthcaremagic/train.json"
+  },
+  "healthcaremagic_validation": {
+    "file_name": "healthcaremagic/val.json"
+  },
+  "healthcaremagic_test": {
+    "file_name": "healthcaremagic/test.json"
+  },
+  "cmedqa2_train": {
+    "file_name": "cMedQA2/train.json"
+  },
+  "cmedqa2_validation": {
+    "file_name": "cMedQA2/val.json"
+  },
+  "cmedqa2_test": {
+    "file_name": "cMedQA2/test.json"
   }
 }
